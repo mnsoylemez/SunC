@@ -61,7 +61,7 @@ See `requirements.txt` for specific versions.
 
 ## Usage
 1. **Launch the Application**:
-   Run `main.py` to open the Tkinter GUI.
+   Run `SunC.py` to open the Tkinter GUI.
 
 2. **Input Parameters**:
    - **Location**: Enter the name, latitude, longitude, and timezone (e.g., GMT+3 for Istanbul).
@@ -93,7 +93,7 @@ The output will include:
 - Visualizations saved as `output_Istanbul_monthly.png`, `output_Istanbul_total.png`, etc.
 
 ## File Structure
-- `main.py`: The main application script containing the GUI and simulation logic.
+- `SunC.py`: The main application script containing the GUI and simulation logic.
 - `requirements.txt`: Lists Python dependencies.
 - `README.md`: This file, providing project documentation.
 - `.gitignore`: Specifies files and directories to ignore in version control.
@@ -111,8 +111,6 @@ Contributions are welcome! To contribute:
 3. Commit your changes (`git commit -m "Add your feature"`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
-
-Please ensure your code follows PEP 8 style guidelines and includes appropriate documentation.
 
 ## License
 See the `LICENSE` file for details.
