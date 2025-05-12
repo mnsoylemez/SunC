@@ -310,7 +310,7 @@ def calculate_and_export(locations_data, start_year, panel_efficiency_decimal, c
                 'En İyi Doğu-Batı Eğimi (derece)': results['eniyi_dogu_bati_egimi'],
                 'En İyi Kuzey-Güney Eğimi (derece)': results['eniyi_kuzey_guney_egimi'],
                 'Toplam Enerji - İzleme (kWh/yıl)': results['toplam_enerji_izleme'],
-                'Toplam Enerji - En İyi Sabit (kWh/yıl)': results['toplam_enerji_sabit_en_iyi'],
+                'Toplam Enerji - En İyi Sabit (kWh/yıl)': results['toplam_enerji_sabit_eniyi'],
                 'Toplam Enerji - Özel Sabit (kWh/yıl)': results['toplam_enerji_ozel_sabit']
             })
         
@@ -357,7 +357,7 @@ def calculate_and_export(locations_data, start_year, panel_efficiency_decimal, c
 class SolarTiltPowerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("SunA - Güneş Paneli Pozisyon ve Elektrik Üretim Simülatörü")
+        self.root.title("SunC - Güneş Paneli Pozisyon ve Elektrik Üretim Simülatörü")
         self.root.geometry("800x700")
         
         self.input_frame = ttk.LabelFrame(root, text="Girdiler", padding=(10, 5))
